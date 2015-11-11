@@ -7,9 +7,7 @@ by Jason Costello, @jsncostello
 
 /* CUSTOM - DJF */
 
-@import url(http://fonts.googleapis.com/css?family=Oxygen:400,700,300);
-@import url(http://fonts.googleapis.com/css?family=Alfa+Slab+One);
-@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800,900,700,300);
 
 /* end */
 /*******************************************************************************
@@ -63,7 +61,8 @@ body {
   color:#373737;
   background: #484848;
   font-size: 16px;
-  font-family: 'Oxygen', Calibri, Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', Calibri, Helvetica, Arial, sans-serif;
+  font-weight: 300;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -72,13 +71,12 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
   color:#222222;
-  font-family: 'Lato', Calibri, Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', Calibri, Helvetica, Arial, sans-serif;
   letter-spacing: -1px;
 }
 
 h1 {
   font-size: 36px;
-  font-weight: 700;
 }
 
 h2 {
@@ -250,7 +248,7 @@ table {
  }
 
 th {
-  font-family: 'Oxygen', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 10px;
   background: #373737;
   color: #fff;
@@ -310,11 +308,12 @@ Full-Width Styles
 }
 
 #project_title {
-  font-family: 'Alfa Slab One', sans-serif;
+  font-family: 'Raleway', sans-serif;
   margin: 0;
   color: #fff;
   font-size: 42px;
-  font-weight: 100;
+  font-weight: 900;
+  text-transform: uppercase;
   text-shadow: #111 0px 0px 10px;
   padding-top: 40px;
 }
