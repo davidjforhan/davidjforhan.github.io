@@ -297,11 +297,11 @@ Full-Width Styles
 
 #header_wrap {
   background: #212121;
-  background: -moz-linear-gradient(top, #312066, #212121);
-  background: -webkit-linear-gradient(top, #312066, #212121);
-  background: -ms-linear-gradient(top, #312066, #212121);
-  background: -o-linear-gradient(top, #312066, #212121);
-  background: linear-gradient(top, #312066, #212121);
+  background: -moz-linear-gradient(bottom, #312066, #212121);
+  background: -webkit-linear-gradient(bottom, #312066, #212121);
+  background: -ms-linear-gradient(bottom, #312066, #212121);
+  background: -o-linear-gradient(bottom, #312066, #212121);
+  background: linear-gradient(bottom, #312066, #212121);
 }
 
 #header_wrap .inner {
@@ -374,7 +374,7 @@ Full-Width Styles
 }
 
 #footer_wrap {
-  background: #212121;
+  background: #312066;
 }
 
 
@@ -382,6 +382,9 @@ Full-Width Styles
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/
+
+
+
 
 @media screen and (max-width: 480px) {
   body {
@@ -430,5 +433,19 @@ Small Device Styles
     max-width: 480px;
     font-size: 11px;
   }
+
+  /*edits*/
+
+  #forkme_banner {
+    display: block;
+    width: 100%;
+    top:0;
+    right: 0px;
+    padding: 10px 50px 10px 10px;
+    color: #fff;
+    background: url('../images/blacktocat.png') #312066 no-repeat 95% 50%;
+    border-radius: 0;
+  }
+
 
 }
