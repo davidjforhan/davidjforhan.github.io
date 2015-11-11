@@ -437,13 +437,12 @@ Small Device Styles
   /*edits*/
 
   #forkme_banner {
-    display: block;
+    text-align: center;
     width: 100%;
     top:0;
-    right: 0px;
-    padding: 10px 50px 10px 10px;
+    right: 0;
     color: #fff;
-    background: url('../images/blacktocat.png') #312066 no-repeat 95% 50%;
+    background: url('../images/blacktocat.png') #312066 no-repeat 65% 50%;
     border-radius: 0;
   }
 
