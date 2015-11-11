@@ -386,9 +386,9 @@ Small Device Styles
 
 
 
-@media screen and (max-width: 700px) {
+@media all and (max-width: 700px) {
   body {
-    font-size:14px;
+    font-size:16px;
   }
 
   #downloads {
@@ -402,6 +402,10 @@ Small Device Styles
 
   #project_title {
   font-size: 32px;
+  }
+
+  #project_tagline {
+    font-size: 18px;
   }
 
   h1 {
@@ -442,7 +446,6 @@ Small Device Styles
     top:0;
     right: 0;
     color: #fff;
-    background: url('../images/blacktocat.png') #312066 no-repeat 65% 50%;
     border-radius: 0;
   }
 
