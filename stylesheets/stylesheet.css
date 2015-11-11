@@ -396,6 +396,17 @@ background-color: rgba(141, 10, 25, 0.15); transition: 600ms;
 }
 
 
+.card-story {
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 1px solid #666;
+  border-radius: 3px;
+}
+
+
+
+
+
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/
