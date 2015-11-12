@@ -54,8 +54,6 @@ Theme Styles
 *******************************************************************************/
 
 
-
-
 body {
   box-sizing: border-box;
   color:#373737;
@@ -148,7 +146,6 @@ img {
   padding: 5px;
   margin: 10px 0 10px 0;
   border: 1px solid #ebebeb;
-
   box-shadow: 0 0 5px #ebebeb;
   -webkit-box-shadow: 0 0 5px #ebebeb;
   -moz-box-shadow: 0 0 5px #ebebeb;
@@ -379,6 +376,16 @@ Full-Width Styles
 
 #footer_wrap {
   background: #312066;
+}
+
+#logo {
+  height: 25px;
+  border: 1px solid #312066;
+  box-shadow: 0 0 0;
+  -webkit-box-shadow: 0 0 0;
+  -moz-box-shadow: 0 0 0;
+  -o-box-shadow: 0 0 0;
+  -ms-box-shadow: 0 0 0;
 }
 
 ul.card-links {
