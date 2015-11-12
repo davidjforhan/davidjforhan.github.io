@@ -415,11 +415,17 @@ background-color: rgba(141, 10, 25, 0.15); transition: 600ms;
   border-radius: 3px;
 }
 
-.skill-tags li {font-size: 14px; display: inline-block; margin: 2px; padding: 6px; border: 1px solid #8d0a19; border-radius: 3px;}
-.skill-tags li:hover {background-color: #8d0a19; transition: 500ms;}
+.skill-tags li {font-size: 12px; display: inline-block; margin: 2px; padding: 6px; border: 1px solid #8d0a19; border-radius: 3px;}
+.skill-tags li:hover {background-color: #8d0a19; color: #f5f5f5; transition: 900ms ease;}
 .skill-tags {padding: 0;}
 
-
+.date {  margin: 0; font-size: 11px; text-transform: uppercase;}
+.jobTitle {
+  margin: 0 0 18px 0;
+  font-size: 19px;
+  line-height: 22px;
+  font-weight: 700;
+}
 
 
 /*******************************************************************************
