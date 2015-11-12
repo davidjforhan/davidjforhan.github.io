@@ -415,6 +415,9 @@ background-color: rgba(141, 10, 25, 0.15); transition: 600ms;
   border-radius: 3px;
 }
 
+.skill-tags li {font-size: 14px; display: inline-block; margin: 2px; padding: 6px; border: 1px solid #8d0a19; border-radius: 3px;}
+.skill-tags li:hover {background-color: #8d0a19; transition: 500ms;}
+.skill-tags {padding: 0;}
 
 
 
