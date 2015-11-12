@@ -71,6 +71,7 @@ h1, h2, h3, h4, h5, h6 {
   color:#222222;
   font-family: 'Raleway', Calibri, Helvetica, Arial, sans-serif;
   letter-spacing: -1px;
+  text-transform: uppercase;
 }
 
 h1 {
@@ -318,8 +319,10 @@ Full-Width Styles
 
 
 #project_tagline {
+  margin: -10px 0;
   color: #fff;
   font-size: 24px;
+  line-height: 24px;
   font-weight: 300;
   background: none;
   text-shadow: #111 0px 0px 10px;
@@ -437,11 +440,11 @@ Small Device Styles
   }
 
   #project_title {
-  font-size: 28px;
+  font-size: 36px;
   }
 
   #project_tagline {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   h1 {
