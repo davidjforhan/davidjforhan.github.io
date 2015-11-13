@@ -111,8 +111,8 @@ footer p {
 a {
   text-decoration: none;
   color: #312066;
+  font-weight: 800;
   text-shadow: none;
-
   transition: color 0.5s ease;
   transition: text-shadow 0.5s ease;
   -webkit-transition: color 0.5s ease;
@@ -423,7 +423,7 @@ background-color: rgba(141, 10, 25, 0.15); transition: 600ms;
 .jobTitle {
   margin: 0 0 18px 0;
   font-size: 19px;
-  line-height: 22px;
+  line-height: 24px;
   font-weight: 700;
 }
 
