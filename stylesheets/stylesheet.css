@@ -329,17 +329,7 @@ Full-Width Styles
   text-shadow: #111 0px 0px 10px;
 }
 
-.card-story h3, .resume h3 {
-  font-family: 'Merriweather', serif;
-  font-size: 24px;
-  text-transform: none;
-}
 
-.card-story:hover {
-  /*border-left: 12px solid teal;*/
-  box-shadow: 0 0 6px rgba(0,0,0,.3);
-  transition: 800ms;
-}
 
 #downloads {
   position: absolute;
@@ -421,11 +411,21 @@ background-color: rgba(141, 10, 25, 0.15); transition: 800ms;
 }
 
 .card-story {
-  padding: 8px;
+  /*padding: 8px;
   margin-bottom: 8px;
   border: 1px solid #ccc;
-  border-radius: 3px;
+  border-radius: 3px;*/
 }
+.card-story h3, .resume h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 24px;
+  text-transform: none;
+}
+
+/*.card-story:hover {
+  box-shadow: 0 0 6px rgba(0,0,0,.15);
+  transition: 800ms;
+}*/
 
 .intro {
   font-size: 19px;
@@ -434,10 +434,9 @@ background-color: rgba(141, 10, 25, 0.15); transition: 800ms;
 }
 
 .resume-section {
-  padding: 8px;
-  margin-bottom: 8px;
-  border: 1px solid #ccc;
-  /*border-radius: 3px;*/
+  margin-bottom: 16px;
+  border-bottom: 1px solid #ccc;
+
 }
 
 .skill-tags li {font-size: 12px; display: inline-block; margin: 2px; padding: 6px; border: 1px solid #8d0a19; border-radius: 3px;}
@@ -451,8 +450,8 @@ background-color: rgba(141, 10, 25, 0.15); transition: 800ms;
   font-size: 19px;
   line-height: 24px;
   font-weight: 700;
-  border-left: 2px solid #ccc;
   padding: 0 10px;
+
 }
 
 
