@@ -443,16 +443,25 @@ background-color: rgba(141, 10, 25, 0.15); transition: 800ms;
 .skill-tags li:hover {background-color: #8d0a19; color: #f5f5f5; transition: 900ms ease;}
 .skill-tags {padding: 0;}
 
-.date {margin: 0; font-size: 11px; text-transform: uppercase; }
+.jobDate {
+  margin: 0;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.jobEmployer{
+  margin: 0;
+  font-size: 19px;
+}
 
 .jobTitle {
   margin: 0 0 18px 0;
   font-size: 19px;
   line-height: 24px;
   font-weight: 700;
-  padding: 0 10px;
-
+  /*padding: 0 10px;*/
 }
+
 
 
 /*******************************************************************************
