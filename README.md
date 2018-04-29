@@ -1,10 +1,9 @@
 # davidjforhan.github.io
-Rebuilding my broken github page
+Welcome to my basic github directory
 
 # To Do
-- add resume
-- add links to portfolios
-- add links to websites
-- add links to social channels
+- refresh
+- add some gists
+- build more amazing things
 
 
